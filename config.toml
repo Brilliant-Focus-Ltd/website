@@ -1,5 +1,5 @@
 # config.toml
-base_url = "/website"
+base_url = "/website/public"
 title = "Brilliant Focus"
 description = "Advancing the frontiers of research through focused, multidisciplinary innovation"
 
