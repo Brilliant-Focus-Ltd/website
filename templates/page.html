@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="frame">
+    <div class="scene">
+        <div class="hitbox"></div>
+        <div class="cone" id="cone"></div>
+        <div class="rays" id="rays"></div>
+    </div>
+</div>
+
+<main class="content">
+    {{ section.content | safe }}
+</main>
+{% endblock content %}
+
+{% block scripts %}
+<script src="{{ get_url(path="js/script.js") }}"></script>
+{% endblock scripts %}

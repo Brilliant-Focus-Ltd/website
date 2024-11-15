@@ -1,0 +1,11 @@
+# config.toml
+base_url = "/website"
+title = "Brilliant Focus"
+description = "Advancing the frontiers of research through focused, multidisciplinary innovation"
+
+[markdown]
+highlight_code = true
+
+
+[extra]
+author = "Brilliant Focus"
