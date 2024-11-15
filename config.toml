@@ -1,7 +1,9 @@
 # config.toml
 base_url = "/website/public"
 title = "Brilliant Focus"
-description = "Advancing the frontiers of research through focused, multidisciplinary innovation"
+description = ""
+compile_sass = true
+build_search_index = false
 
 [markdown]
 highlight_code = true
